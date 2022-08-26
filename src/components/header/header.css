@@ -1,0 +1,116 @@
+header {
+
+    height: 80vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height:100%;
+    position: relative;
+  }
+
+
+/* ========================== CTA ========================== */
+ .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+ }
+
+/* ========================== Header Socials ========================== */
+
+.header__socials {
+    border-radius: 25px;
+    border: 2px solid var(--color-primary);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    background: rgba(0,0, 0, 0.3);
+
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/* ========================== me ========================== */
+
+.salute_img {
+    width: 5%;
+    height: 5%;
+    margin-left: 30%;
+    transform: rotate(35deg);
+    top: 4.5rem;
+    position:relative;
+    
+    
+    
+}
+
+.me {
+    background: linear-gradient(transparent, var(--color-primary), transparent);
+    display: flex;
+    align-items: center;
+    left: calc(50% - 15rem);
+    position: absolute;
+    justify-content: center;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 4rem;
+}
+
+/* =============== Media Queries (Tablets) ================*/
+@media screen and (max-width: 1024px) {
+  header {
+      height: 140vh;
+      
+  }
+  .salute_img {
+    margin-left: 26%;
+    
+    
+    
+    
+}
+}
+
+
+/* =============== Media Queries (Phones) ================*/
+@media screen and (max-width: 600px) {
+    header {
+        height: 140vh;
+    }
+    .me {
+        width: 22rem;
+        height: 22rem;
+        left: calc(50% - 11rem);
+    }
+    .header__socials {
+        display: none;
+    
+    }
+
+    .salute_img {
+        visibility: hidden;
+        
+        
+        
+    }
+    
+    
+}
+
+
+

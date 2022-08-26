@@ -1,0 +1,67 @@
+ .container__AlgoSort {
+    background: var(--color-primary-variant);
+    border-radius: 1rem;
+    height: 40rem;
+    width: 60rem;
+    position: relative;
+    margin: 0 auto auto;
+}
+
+.container__graph {
+    background: white;
+    border-radius: 1rem;
+    height: calc(65rem/2);
+    width: 90%;
+    
+    
+
+}
+.sortingBars {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  
+  .bars {
+    width: 10px;
+    background-color: #ff7f50;
+    margin-left: 4px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+/*
+
+.container__bar {
+    background: green;
+    width: 5%;
+    height: 100%;
+}
+.container__bottom {
+    background: var(--color-primary);
+    position: absolute;
+    top: 90%;
+    height: 10%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+}
+
+.container__grid {
+    background-size: calc(60rem * 0.05) calc(40rem * 0.05) ;
+    border-radius: 1rem;
+    background-image:
+      linear-gradient(to right, black 1px, transparent 1px),
+      linear-gradient(to bottom, black 1px, transparent 1px);
+      position:absolute;
+    
+    height: 100%;
+    width: 100%;
+
+    grid-template-columns: max-content;
+} */
+
+#column-example-6 {
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
